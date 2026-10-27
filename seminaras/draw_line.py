@@ -11,5 +11,7 @@ def draw_line(x_values, y_values):
     plt.show()
 
 
+fig.savefig("line_plot.png")  # Save the figure as a PNG file
+
 if __name__ == "__main__":
     draw_line([1, 2, 3, 4], [1, 4, 9, 16])
